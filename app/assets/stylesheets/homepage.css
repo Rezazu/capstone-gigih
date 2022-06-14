@@ -159,7 +159,7 @@ height: 1000px;
 
 .guide-wrapper{
     width:100%;
-    padding-top:35px;
+    padding-top:40px;
     box-shadow: inset 0px 8px 8px rgba(0, 0, 0, 0.25);
     margin-left: 0px;
 }
@@ -177,18 +177,25 @@ height: 1000px;
 .guide-container{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 40px;
+    padding-left:60px;
+    padding-right:60px;
 }
 
 .guide-content{
     margin-top:30px;
     margin-bottom: 30px;
     text-align: center;
+    
 }
 
 .guide-content h4{
     width:400px;
+    font-weight:600;
     margin-left: auto;
     margin-right: auto;
+    margin-top:20px;
+    font-style: normal;
 }
 
 .blue-box{
@@ -202,10 +209,11 @@ height: 1000px;
 
 .doctor-wrapper{
     height:800px;
+    padding-top:80px;
     width:auto;
 }
 
-.doctor-wrapper h3{
+.doctor-wrapper h2{
     padding-left: 155px;
     font-weight: 600;
     font-size: 28px;
@@ -216,7 +224,7 @@ height: 1000px;
 }
 
 .doctor-card{
-    padding:100px 20px 50px 20px;
+    padding:80px 20px 50px 20px;
     margin-left: 200px;
     margin-right: 200px;
     display:grid;
@@ -225,11 +233,74 @@ height: 1000px;
 
 
 .dcard{
-    width: 300px;
+    width: 325px;
     height: 425px;
-    background: #ffffff;
+    background: #949191;
     border-radius: 25px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.50));
-    margin:0px;
+    margin-left:10px;
 }
 
+.dcard-bottom{
+    width: 325px;
+    height: 150px;
+    margin-top:275px;
+    border-radius: 0px 0px 25px 25px;
+    background-color: #ffffff;
+    padding:10px;
+}
+
+.dcard-bottom h3{
+    font-weight: 1000;
+    font-style: bold;
+    font-size: 24px;
+    margin-top:0px;
+}
+
+.dcard-bottom h4{
+    width: auto;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.dcard-container{
+    position: absolute;
+    padding:10px;
+    width: 50%;
+    margin-right:0px;
+}
+
+.button-chat{
+    float: right;
+    font-size:20px;
+    font-weight:600;
+    background-color: #0080FF;
+    padding:10px 25px;
+    border-radius:50px;
+    color: #ffffff;
+    margin-top:30px;
+}
+
+.button-telemedicine{
+    background-color: #0080FF;
+    padding:20px 25px;
+    padding-right:70px;
+    margin-right:280px;
+    margin-top:20px;
+    border-radius:50px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 27px;
+    color: white;
+    float:right;
+}
+
+.article-wrapper h2{
+    padding-left: 155px;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.article-wrapper span{
+    color: #0080FF;
+}
