@@ -8,6 +8,7 @@ body{
 
 header{
     height:65px;
+    padding-top:10px;
 }
 
 .container{
@@ -83,3 +84,152 @@ ul{
 .header-right .login{
     color: #0080FF;
 }
+
+.top-wrapper{
+height: 1000px;
+}
+
+.top-right{
+    width:1220px;
+    height: 900px;
+    float:right;
+}
+
+.top-right img{
+    padding-right:20px;
+    padding-top: 50px;
+}
+
+.top-left{
+    height: 1000px;
+    width: auto;
+    float:left;
+}
+
+.left-welcome h3{
+    font-style: normal;
+    width: 800px;
+    font-weight: 600;
+    font-size: 50px;
+    padding-top: 200px;
+    padding-left: 150px;
+    line-height: 60px;
+    
+}
+
+.left-welcome h4{
+    width: 800px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 27px;
+    padding-left: 155px;
+    
+}
+.left-welcome span{
+    color: #0080FF;
+}
+
+.left-diagnoses h3{
+    font-style: normal;
+    width: 800px;
+    font-weight: 600;
+    font-size: 46px;
+    padding-top: 120px;
+    padding-left: 150px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+
+.left-diagnoses span{
+    color: #0080FF;
+}
+
+.button-test{
+    background-color: #0080FF;
+    padding:20px 25px;
+    padding-right:70px;
+    border-radius:50px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 27px;
+    color: white;
+    margin-left:155px;
+}
+
+.guide-wrapper{
+    width:100%;
+    padding-top:35px;
+    box-shadow: inset 0px 8px 8px rgba(0, 0, 0, 0.25);
+    margin-left: 0px;
+}
+
+.guide-wrapper h3{
+    position: relative;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 27px;
+}
+
+.guide-wrapper span{
+    color: #0080FF;
+}
+.guide-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.guide-content{
+    margin-top:30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.guide-content h4{
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blue-box{
+    width:200px;
+    height:200px;
+    background-color: #0080FF;
+    border-radius:50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.doctor-wrapper{
+    height:800px;
+    width:auto;
+}
+
+.doctor-wrapper h3{
+    padding-left: 155px;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.doctor-wrapper span{
+    color: #0080FF;
+}
+
+.doctor-card{
+    padding:100px 20px 50px 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+.dcard{
+    width: 300px;
+    height: 425px;
+    background: #ffffff;
+    border-radius: 25px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.50));
+    margin:0px;
+}
+
